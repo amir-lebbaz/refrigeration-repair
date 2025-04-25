@@ -108,6 +108,10 @@ export const Footer: React.FC = () => {
           </p>
         </div>
       </div>
+      {/* Attribution */}
+      <div className="mt-8 text-center text-gray-400 text-xs">
+        مصمم ومطور بواسطة  <a href="https://t.me/hikiamir" target="_blank" rel="noopener noreferrer">Amir Labaz</a>
+      </div>
     </footer>
   );
 };
